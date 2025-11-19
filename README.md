@@ -33,7 +33,7 @@ IV. Cấu hình kết nối (db.php)
 
 Ví dụ:
 
-<?php
+    *<?php
 $host = '127.0.0.1'; 
 $dbname = 'HotelManagement';
 $username = 'root'; 

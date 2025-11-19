@@ -32,13 +32,11 @@ IV. Cấu hình kết nối (db.php)
 2.  Đảm bảo các thông tin trong đó khớp với CSDL của bạn
 
 Ví dụ:
-
-    *<?php
+<php
 $host = '127.0.0.1'; 
 $dbname = 'HotelManagement';
 $username = 'root'; 
 $password = '123456'; 
 $charset = 'utf8mb4';
-...
-?>
-Chạy 2 file create_nhanvien.php và create_admin.php bằng cách gọi chúng trên browser để khởi tạo 2 tài khoản đầu tiên được phân quyền staff và admin.
+...>
+Cuối cùng, chạy 2 file create_nhanvien.php và create_admin.php bằng cách gọi chúng trên browser để khởi tạo 2 tài khoản đầu tiên được phân quyền staff và admin.

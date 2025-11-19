@@ -41,4 +41,4 @@ $password = '123456';
 $charset = 'utf8mb4';
 ...
 ?>
-# HotelWebModified
+Chạy 2 file create_nhanvien.php và create_admin.php bằng cách gọi chúng trên browser để khởi tạo 2 tài khoản đầu tiên được phân quyền staff và admin.

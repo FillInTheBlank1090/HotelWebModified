@@ -1,0 +1,6 @@
+Link tạo admin:
+http://localhost/Proofed%20HotelWeb/create_admin.php
+Link tạo nhân viên:
+http://localhost/Proofed%20HotelWeb/setup_nhanvien.php
+
+(Khuyến nghị xóa 2 file create_admin.php và create_nhanvien.php nếu đã tạo xong)

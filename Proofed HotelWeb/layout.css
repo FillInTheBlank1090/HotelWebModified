@@ -1,0 +1,82 @@
+/* ================================================== */
+/* ===== BỐ CỤC CHUNG CHO TOÀN BỘ TRANG WEB ===== */
+/* ================================================== */
+
+/* --- Lớp bọc chính cho mỗi trang --- */
+.page-container {
+  background-color: #d8f5e3;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* --- Vùng nội dung chính --- */
+.main-content {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 200px 20px 300px 20px; /* Top, Right, Bottom, Left */
+  box-sizing: border-box;
+  flex-grow: 1;
+}
+
+
+/* ================================================== */
+/* ===== HEADER CHUNG ===== */
+/* ================================================== */
+.navigation {
+  position: absolute; width: 100%; top: 0; left: 0; height: 164px; background-color: #ffffff; z-index: 10;
+}
+.nav-content-wrapper {
+  width: 100%; max-width: 1280px; height: 100%; margin: 0 auto; display: flex; justify-content: space-between; align-items: flex-start; padding: 0 20px; box-sizing: border-box;
+}
+.nav-logo {
+  display: flex; align-items: center; margin-top: 50px; font-family: var(--m3-display-large-font-family); font-weight: 400; color: #000; font-size: 57px; text-shadow: 0px 4px 4px #00000040;
+}
+.nav-logo.active {
+  color: #02afff;
+}
+.nav-items {
+  display: inline-flex; margin-top: 56px; height: 52px; align-items: center; gap: var(--variable-collection-spacing-m);
+}
+.nav-link {
+  font-family: var(--body-text-font-family); font-weight: var(--body-text-font-weight); color: #000000; font-size: var(--body-text-font-size);
+}
+.nav-link.active {
+  color: #02afff; font-weight: 700;
+}
+.nav-button {
+  all: unset; box-sizing: border-box; display: inline-flex; padding: 14px 24px; align-items: center; background-color: #000000; border-radius: 8px; box-shadow: var(--button-shadow);
+}
+.nav-button-text {
+  color: #ffffff; font-family: var(--small-text-font-family); font-size: var(--small-text-font-size); font-weight: var(--small-text-font-weight);
+}
+/* Sửa lỗi gạch chân cho các link trong thanh điều hướng */
+.nav-link,
+.nav-link:visited,
+.nav-link:hover,
+.nav-link:active {
+  text-decoration: none !important; /* Dùng !important để đảm bảo được ưu tiên cao nhất */
+}
+
+/* ================================================== */
+/* ===== FOOTER CHUNG ===== */
+/* ================================================== */
+.footer {
+  width: 100%; height: 264px; background-color: #ffffff;
+  position: absolute; bottom: 0; left: 0;
+}
+.footer-content {
+  width: 100%; max-width: 1280px; height: 100%; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #E0E0E0; padding: 0 20px; box-sizing: border-box;
+}
+.footer-logo {
+  font-family: var(--subheading-font-family); font-size: var(--subheading-font-size);
+}
+.footer-button {
+  all: unset; box-sizing: border-box; display: flex; padding: 16px 32px; align-items: center; background-color: #000000; border-radius: 8px; box-shadow: var(--button-shadow);
+}
+.footer-button-text {
+  color: #ffffff; font-family: var(--body-text-font-family); font-size: var(--body-text-font-size);
+}

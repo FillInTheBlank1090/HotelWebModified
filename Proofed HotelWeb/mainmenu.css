@@ -1,0 +1,89 @@
+@import url("layout.css");
+.hero-section {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.hero-title {
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 64px;
+}
+.hero-subtitle {
+    font-family: var(--subheading-font-family);
+    font-weight: var(--subheading-font-weight);
+    color: #000000bf;
+    font-size: var(--subheading-font-size);
+}
+.hero-button {
+    all: unset; box-sizing: border-box; display: inline-flex; padding: 20px 32px;
+    align-items: center; gap: 8px; background-color: #000000; border-radius: 8px;
+    box-shadow: var(--button-shadow); color: #ffffff; font-size: 24px; cursor: pointer;
+}
+.hero-image {
+    width: 100%;
+    height: 640px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 250px;
+}
+.room-list-section {
+    margin-top: 60px;
+}
+.room-list-title {
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+.room-cards-container {
+    display: flex;
+    gap: 32px;
+    width: 100%;
+}
+.card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.image-placeholder {
+    width: 100%;
+    height: 405px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+}
+.image-don { background-image: url(./img/phongdon.webp); }
+.image-doi { background-image: url(./img/phongdoi.webp); }
+.image-vip { background-image: url(./img/phongvip.jpg); }
+.copy {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.room-name {
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    font-size: 24px;
+}
+.room-desc {
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #828282;
+    font-size: 20px;
+}
+.card-button {
+    all: unset; box-sizing: border-box; display: inline-flex; padding: 12px 24px;
+    align-items: center; justify-content: center; background-color: #000000;
+    border-radius: 8px; box-shadow: var(--button-shadow); color: #ffffff;
+    font-size: 18px; cursor: pointer; margin-top: 16px;
+}

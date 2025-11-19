@@ -1,0 +1,50 @@
+@import url("layout.css");
+
+/* Tái sử dụng style của các trang form khác để đảm bảo tính nhất quán */
+.form-container {
+    background-color: #d9d9d9;
+    padding: 40px;
+    border-radius: 8px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.form-title {
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.input-group label {
+    font-family: var(--small-text-font-family);
+    font-weight: var(--small-text-font-weight);
+}
+.field {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px 16px;
+    height: 56px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #dfdfdf;
+    box-shadow: var(--button-shadow);
+    font-size: var(--small-text-font-size);
+}
+
+.submit-button {
+    all: unset; box-sizing: border-box; display: flex; width: 100%; align-items: center;
+    justify-content: center; padding: 16px 0; background-color: #000000;
+    border-radius: 8px; box-shadow: var(--button-shadow); margin-top: 16px;
+    cursor: pointer; color: #ffffff; font-family: var(--body-text-font-family);
+    font-size: var(--body-text-font-size);
+}

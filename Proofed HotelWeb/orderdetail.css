@@ -1,0 +1,94 @@
+@import url("layout.css");
+
+.page-title {
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 48px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.order-container {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.order-section {
+  margin-bottom: 40px;
+}
+
+.order-section:last-of-type {
+  margin-bottom: 0;
+}
+
+.order-section h2 {
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  font-family: var(--small-text-font-family);
+  font-size: var(--small-text-font-size);
+}
+
+.info-item {
+  line-height: 1.6;
+}
+
+.cost-details {
+    font-family: var(--body-text-font-family);
+    font-size: var(--body-text-font-size);
+}
+
+.cost-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.cost-item:last-child {
+    border-bottom: none;
+}
+
+.cost-item.total {
+    font-weight: 700;
+    font-size: 22px;
+    color: #000;
+}
+
+.action-buttons {
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+}
+
+.btn-primary, .btn-secondary {
+  all: unset; box-sizing: border-box; display: inline-flex; align-items: center; justify-content: center;
+  height: 44px; padding: 0 24px; border-radius: 8px; font-family: var(--small-text-font-family);
+  font-weight: var(--small-text-font-weight); cursor: pointer; box-shadow: var(--button-shadow);
+  white-space: nowrap;
+}
+
+.btn-primary {
+    background-color: #000;
+    color: #fff;
+}
+.btn-secondary {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
